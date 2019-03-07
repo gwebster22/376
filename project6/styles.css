@@ -1,0 +1,57 @@
+.die {
+    fill:#ffffff;
+    stroke-width: 3;
+    stroke: #000000;
+}
+
+.pip {
+    stroke: #000000;
+    fill: #000000;
+    visibility: hidden;
+}
+
+#background {
+    fill: #3176ed;
+}
+
+#controls {
+    text-align: center;
+    width: 500px;
+    font-family: arial;
+    font-size: 14pt;
+}
+
+#results-container {
+    stroke: white;
+    fill: black;
+    stroke-width: 2.5;
+}
+
+#point {
+    font-size: 26px;
+    text-anchor: middle;
+    fill: white;
+    font-family: arial;
+    stroke: white;
+}
+
+#message {
+    stroke: white;
+    font-size: 20px;
+    font-family: arial;
+    fill: white;
+}
+
+#winnings {
+    font-weight: bold;
+    font-family: arial;
+}
+
+input, button {
+    font-family: arial;
+    font-size: 14pt;
+}
+
+.spacer {
+    margin-left: 25px;
+}

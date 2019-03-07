@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    
+    function rollDie(){
+        var roll= Math.ceil(Math.random()*6);
+        console.log(roll);
+    }
+
+    var dieNum = "d1";
+    
+    $(".pip").attr("visibilty", "hidden");
+
+
+</script>
+
+
+<svg width="500" height="500">
+
+    <rect x="100" y="100"
+          width="100" height="100"
+          stroke="black" fill="white"
+          stroke-width="4"/>
+
+    <circle id="d1p1" cx="125" cy="125" r="5" stroke="black" stroke-width="3" fill="black" visibility="visible"/>
+    <circle id="d1p2" cx="175" cy="125" r="5" stroke="black" stroke-width="3" fill="black" visibility="visible"/>
+    <circle id="d1p3" cx="175" cy="150" r="5" stroke="black" stroke-width="3" fill="black" visibility="visible"/>
+    <circle id="d1p4" cx="125" cy="150" r="5" stroke="black" stroke-width="3" fill="black" visibility="visible"/>
+    <circle id="d1p5" cx="175" cy="175" r="5" stroke="black" stroke-width="3" fill="black" visibility="visible"/>
+    <circle id="d1p6" cx="125" cy="175" r="5" stroke="black" stroke-width="3" fill="black" visibility="visible"/>
+    <circle id="d1p6" cx="150" cy="150" r="5" stroke="black" stroke-width="3" fill="black" visibility="visible"/>
+
+
+
+
+
+
+
+</svg>
+
+    <button onclick="rollDie()">Roll the Die!</button>
+</body>
+</html>

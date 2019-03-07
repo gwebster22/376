@@ -1,0 +1,61 @@
+#title {
+    text-align: center;
+    font-family: impact;
+    font-size: 75px;
+    color: #ccffff;
+}
+
+body {
+    background-color: #5c5c8a;
+}
+
+.picture {
+    position: absolute;
+    z-index: -5;
+    top: 200px;
+    text-align: center;
+    width: 100%;
+}
+
+.line1 {
+    font-family: impact;
+    font-size: 30px;
+    color: #5c5c8a;
+}
+
+.line2 {
+    font-family: impact;
+    font-size: 30px;
+    color: #5c5c8a;
+}
+
+.line3 {
+    font-family: impact;
+    font-size: 30px;
+    color: #5c5c8a;
+}
+
+.lyrics {
+    font-family: impact;
+    font-size: 25px;
+    color: #5c5c8a;
+}
+
+.guess {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-family: impact;
+}
+
+.checksong {
+    text-align: center;
+    font-size:15px;
+    font-size: 70px;
+}
+
+.message {
+    text-align: center;
+    font-size: 40px;
+    color: white;
+}
